@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+       Skode - Quizz
+    </title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="Skode-logo.png">
+</head>
+<body>
+    <div id="navbar">
+    <div id="navlinks">
+    <nav>
+    <ul id="navlist">
+        <li><a href="chaine.html">La chaine</a></li>
+        <li><a href="quiz.html">Quizz</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+    </div>
+    </div>
+    <div class="banner">
+        <p>  
+        <h1 class="banner-title">
+          <a href="#">Teste-toi !</a>
+        </h1>
+        </p>
+    </div>  
+    <div id="navbar2">
+    <div id="navlinks2">
+    <nav>
+    <ul id="navlist2">
+        <li><a href="css.html">html/css</a></li>
+    </ul>
+    </nav>
+    </div>
+    </div>
+    <div id="navbar3">
+    <div id="navlinks3">
+    <nav>
+    <ul id="navlist3">
+        <li><a href="reseau.html">réseau</a></li>
+    </ul>
+    </nav>
+    </div>
+    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quiz HTML/CSS</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz sur le réseau</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. Qu' est ce que DNS signifie</p>
+                <br>
+                <label>
+                    <input type="radio" name="q1" value="a"> a) Domaine name service
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="b"> b) Domaine name server
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="c"> c) Data name scientist
+                </label>
+                <span class="result"></span>
+            </div>
+
+            <div class="question">
+                <p>2. Qu' est ce qu' un FAI</p>
+                <br>
+                <label>
+                    <input type="radio" name="q2" value="a"> a) fournisseur auxiliaire d' internet
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="b"> b) fonction affine inverse
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="c"> c) Fournisseur d' accés internet
+                </label>
+                <span class="result"></span>
+            </div>
+
+            <input type="submit" value="Soumettre">
+        </form>
+
+        <div id="quiz-results">
+            <br></br>
+            <p id="correct-answers"></p>
+            <p id="percentage"></p>
+        </div>
+        <script src="reseau.js"></script>
+        <div id="quiz-answers" style="display: none;">
+            <br></br>
+            <p>Résultats:</p>
+            <ul>
+                <li>Question 1 : La réponse correcte est "b) Domaine name server"</li>
+                <li>Question 2 : La réponse correcte est "c) Fournissuer d' accés internet"</li>
+                <!-- Ajoutez des éléments pour d'autres questions ici -->
+            </ul>
+            <p id="quiz-percentage"></p>
+        </div>
+    </div>
+
+   
+    <!-- <footer>
+    
+       <div class="contenu-footer">
+
+        <div class="blo footer-rap">
+            <h3>Autres rappeurs</h3>
+            <ul class="liste rap">
+                <p>♩ Cadillac</p>
+                <p>♪ M.c. Salò</p>
+            </ul>
+       </div>
+
+        <div class="bloc footer-contact">
+            <h3>Contact</h3>
+            <ul class="liste contact">
+                <p>✓ Travis Concas</p>
+                <p>⚐ Etudiant Epsi</p>
+                <p>✎ travis.concas@epsi.fr</p>
+                <p>➣ Montpellier,34000</p>
+            </ul>
+       </div>
+
+        <div class="bloc footer-reseaux">
+            <h3>Réseaux sociaux</h3>
+            <ul class="liste reseaux">
+                <p>Youtube : Stupeflip</p>
+                <p>Instagram : stupeflip.officiel</p>
+                <p>Magasin : Stupermarché</p>
+            </ul>
+       </div>
+
+    </footer> -->
+</body>
+</html>
